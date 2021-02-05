@@ -46,6 +46,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Title: Inspector
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 542}
@@ -61,6 +62,11 @@ MonoBehaviour:
   m_RootView: {fileID: 11}
   m_MinSize: {x: 875, y: 300}
 >>>>>>> parent of 9c2b688... Menu Work
+=======
+  m_Title: Inspector
+  m_RootView: {fileID: 8}
+  m_MinSize: {x: 875, y: 542}
+>>>>>>> parent of e42da54... test
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &3
@@ -78,6 +84,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -133,6 +140,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 >>>>>>> parent of 9c2b688... Menu Work
+=======
+>>>>>>> parent of e42da54... test
     x: 615
     y: 0
     width: 851
@@ -145,6 +154,7 @@ MonoBehaviour:
   - {fileID: 15}
   - {fileID: 14}
   m_Selected: 1
+<<<<<<< HEAD
 =======
     x: 616
     y: 0
@@ -165,6 +175,8 @@ MonoBehaviour:
   - {fileID: 18}
   m_Selected: 0
 >>>>>>> parent of 9c2b688... Menu Work
+=======
+>>>>>>> parent of e42da54... test
   m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -193,6 +205,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 103
 =======
   controlID: 124
@@ -200,6 +213,9 @@ MonoBehaviour:
 =======
   controlID: 124
 >>>>>>> parent of 3e9545a... camera rotation done
+=======
+  controlID: 103
+>>>>>>> parent of e42da54... test
 --- !u!114 &4
 =======
   controlID: 87
@@ -231,6 +247,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 96
 =======
   controlID: 15
@@ -238,6 +255,9 @@ MonoBehaviour:
 =======
   controlID: 15
 >>>>>>> parent of 3e9545a... camera rotation done
+=======
+  controlID: 96
+>>>>>>> parent of e42da54... test
 --- !u!114 &5
 =======
   controlID: 93
@@ -313,9 +333,13 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of e42da54... test
     width: 615
 <<<<<<< HEAD
     height: 386
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 3e9545a... camera rotation done
@@ -325,6 +349,8 @@ MonoBehaviour:
 =======
     height: 403
 >>>>>>> parent of 9c2b688... Menu Work
+=======
+>>>>>>> parent of e42da54... test
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 19}
@@ -434,6 +460,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 70
 =======
   controlID: 16
@@ -441,6 +468,9 @@ MonoBehaviour:
 =======
   controlID: 16
 >>>>>>> parent of 3e9545a... camera rotation done
+=======
+  controlID: 70
+>>>>>>> parent of e42da54... test
 --- !u!114 &12
 =======
   controlID: 86
@@ -472,6 +502,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 71
 =======
   controlID: 17
@@ -479,6 +510,9 @@ MonoBehaviour:
 =======
   controlID: 17
 >>>>>>> parent of 3e9545a... camera rotation done
+=======
+  controlID: 71
+>>>>>>> parent of e42da54... test
 --- !u!114 &13
 =======
   controlID: 62
@@ -510,9 +544,12 @@ MonoBehaviour:
   - {fileID: 19}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - {fileID: 22}
 >>>>>>> parent of 9c2b688... Menu Work
+=======
+>>>>>>> parent of e42da54... test
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &17
@@ -571,6 +608,7 @@ MonoBehaviour:
     systemLanguage: 10
 <<<<<<< HEAD
 --- !u!114 &15
+<<<<<<< HEAD
 =======
   - {fileID: 14}
   m_Selected: 0
@@ -586,6 +624,8 @@ MonoBehaviour:
 =======
 --- !u!114 &18
 >>>>>>> parent of 9c2b688... Menu Work
+=======
+>>>>>>> parent of e42da54... test
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -607,11 +647,15 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of e42da54... test
     x: 615
     y: 657
     width: 849
 <<<<<<< HEAD
     height: 365
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 3e9545a... camera rotation done
@@ -626,6 +670,8 @@ MonoBehaviour:
 =======
     height: 382
 >>>>>>> parent of 9c2b688... Menu Work
+=======
+>>>>>>> parent of e42da54... test
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames:
   - Unity.DeviceSimulator.SimulatorWindow
@@ -635,6 +681,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -648,6 +695,9 @@ MonoBehaviour:
 =======
   m_TargetSize: {x: 849, y: 361}
 >>>>>>> parent of 9c2b688... Menu Work
+=======
+  m_TargetSize: {x: 849, y: 344}
+>>>>>>> parent of e42da54... test
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -664,11 +714,15 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of e42da54... test
     m_HBaseRangeMin: -424.5
     m_HBaseRangeMax: 424.5
 <<<<<<< HEAD
     m_VBaseRangeMin: -172
     m_VBaseRangeMax: 172
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 3e9545a... camera rotation done
@@ -684,6 +738,8 @@ MonoBehaviour:
     m_VBaseRangeMin: -180.5
     m_VBaseRangeMax: 180.5
 >>>>>>> parent of 9c2b688... Menu Work
+=======
+>>>>>>> parent of e42da54... test
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -702,12 +758,16 @@ MonoBehaviour:
       x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of e42da54... test
       y: 21
       width: 849
       height: 361
     m_Scale: {x: 1, y: 1}
 <<<<<<< HEAD
     m_Translation: {x: 424.5, y: 172}
+<<<<<<< HEAD
 =======
       y: 0
       width: 1101
@@ -725,6 +785,8 @@ MonoBehaviour:
 =======
     m_Translation: {x: 424.5, y: 180.5}
 >>>>>>> parent of 9c2b688... Menu Work
+=======
+>>>>>>> parent of e42da54... test
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -733,6 +795,9 @@ MonoBehaviour:
       serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of e42da54... test
       x: -424.5
       y: -180.5
       width: 849
@@ -741,6 +806,7 @@ MonoBehaviour:
   m_defaultScale: 1
 <<<<<<< HEAD
   m_LastWindowPixelSize: {x: 849, y: 365}
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 3e9545a... camera rotation done
@@ -758,11 +824,14 @@ MonoBehaviour:
 =======
   m_LastWindowPixelSize: {x: 849, y: 382}
 >>>>>>> parent of 9c2b688... Menu Work
+=======
+>>>>>>> parent of e42da54... test
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -829,6 +898,8 @@ MonoBehaviour:
 >>>>>>> parent of 3e9545a... camera rotation done
 =======
 >>>>>>> parent of 3e9545a... camera rotation done
+=======
+>>>>>>> parent of e42da54... test
 --- !u!114 &16
 =======
 --- !u!114 &19
@@ -856,6 +927,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 634
     width: 614
     height: 365
@@ -871,6 +943,11 @@ MonoBehaviour:
     width: 614
     height: 382
 >>>>>>> parent of 9c2b688... Menu Work
+=======
+    y: 634
+    width: 614
+    height: 365
+>>>>>>> parent of e42da54... test
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -888,6 +965,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Fonts
 =======
     - Assets/Material
@@ -898,11 +976,15 @@ MonoBehaviour:
 =======
     - Assets/_Script
 >>>>>>> parent of 9c2b688... Menu Work
+=======
+    - Assets/Fonts
+>>>>>>> parent of e42da54... test
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -916,12 +998,16 @@ MonoBehaviour:
 =======
   - Assets/_Script
 >>>>>>> parent of 9c2b688... Menu Work
+=======
+  - Assets/Fonts
+>>>>>>> parent of e42da54... test
   m_LastFoldersGridSize: -1
   m_LastProjectPath: G:\Github Repo\ProjectAlpha\TowerDefence
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -943,6 +1029,11 @@ MonoBehaviour:
     m_LastClickedID: 14958
     m_ExpandedIDs: 00000000643a0000
 >>>>>>> parent of 9c2b688... Menu Work
+=======
+    m_SelectedIDs: 5c3b0000
+    m_LastClickedID: 15196
+    m_ExpandedIDs: 000000001c3b0000a63b0000ae3b0000
+>>>>>>> parent of e42da54... test
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -973,6 +1064,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000001c3b0000
 =======
     m_ExpandedIDs: 00000000fa480000
@@ -983,6 +1075,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000643a0000
 >>>>>>> parent of 9c2b688... Menu Work
+=======
+    m_ExpandedIDs: 000000001c3b0000
+>>>>>>> parent of e42da54... test
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1108,6 +1203,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ExpandedIDs: 26f8ffff5cf8ffff10f9ffff46fbffff
 =======
       m_ExpandedIDs: b0ecffff
@@ -1118,6 +1214,9 @@ MonoBehaviour:
 =======
       m_ExpandedIDs: 48cdffff1ed3ffff38d3ffff86dcffff5ce3ffff56fbffff
 >>>>>>> parent of 9c2b688... Menu Work
+=======
+      m_ExpandedIDs: 26f8ffff5cf8ffff10f9ffff46fbffff
+>>>>>>> parent of e42da54... test
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1180,6 +1279,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 1075.0756, y: 540.29114, z: 64.25958}
     speed: 2
     m_Value: {x: 1075.0756, y: 540.29114, z: 64.25958}
@@ -1198,6 +1298,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 449.88794, y: 37.75409, z: 354.18286}
 >>>>>>> parent of 9c2b688... Menu Work
+=======
+    m_Target: {x: 1075.0756, y: 540.29114, z: 64.25958}
+    speed: 2
+    m_Value: {x: 1075.0756, y: 540.29114, z: 64.25958}
+>>>>>>> parent of e42da54... test
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1247,6 +1352,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of e42da54... test
     m_Target: {x: 0, y: 0, z: 0, w: 1}
 =======
     m_Target: {x: -0.08559675, y: -0.050196666, z: 0.0043184273, w: -0.99506843}
@@ -1258,6 +1366,7 @@ MonoBehaviour:
     speed: 2
 <<<<<<< HEAD
     m_Value: 659.7939
+<<<<<<< HEAD
 =======
     m_Target: {x: -0.3653425, y: 0.07583328, z: -0.029878782, w: -0.92730314}
     speed: 2
@@ -1277,6 +1386,8 @@ MonoBehaviour:
 =======
     m_Value: 518.67676
 >>>>>>> parent of 9c2b688... Menu Work
+=======
+>>>>>>> parent of e42da54... test
   m_Ortho:
     m_Target: 0
     speed: 2
