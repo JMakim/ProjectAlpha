@@ -16,17 +16,23 @@ F:/GitHubRepos/ProjectAlpha/TowerDefence
 Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< HEAD
+<<<<<<< HEAD
 52851
 Successfully changed project path to: F:/GitHubRepos/ProjectAlpha/TowerDefence
 F:/GitHubRepos/ProjectAlpha/TowerDefence
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 23.54 ms, found 0 plugins.
 =======
+=======
+>>>>>>> parent of 3e9545a... camera rotation done
 58340
 Successfully changed project path to: G:/Github Repo/ProjectAlpha/TowerDefence
 G:/Github Repo/ProjectAlpha/TowerDefence
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 21.20 ms, found 0 plugins.
+<<<<<<< HEAD
+>>>>>>> parent of 3e9545a... camera rotation done
+=======
 >>>>>>> parent of 3e9545a... camera rotation done
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
@@ -62,12 +68,16 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/E
 Registered in 0.002169 seconds.
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 19.42 ms, found 0 plugins.
+<<<<<<< HEAD
+>>>>>>> parent of 3e9545a... camera rotation done
+=======
 >>>>>>> parent of 3e9545a... camera rotation done
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Completed reload, in  1.478 seconds
 Platform modules already initialized, skipping
@@ -77,6 +87,8 @@ Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 =======
+=======
+>>>>>>> parent of 3e9545a... camera rotation done
 - Completed reload, in  0.946 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
@@ -84,6 +96,9 @@ Registered in 0.000501 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+<<<<<<< HEAD
+>>>>>>> parent of 3e9545a... camera rotation done
+=======
 >>>>>>> parent of 3e9545a... camera rotation done
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
@@ -91,7 +106,11 @@ RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Completed reload, in  0.807 seconds
+=======
+- Completed reload, in  0.743 seconds
+>>>>>>> parent of 3e9545a... camera rotation done
 =======
 - Completed reload, in  0.743 seconds
 >>>>>>> parent of 3e9545a... camera rotation done
@@ -99,6 +118,7 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -323,10 +343,26 @@ Total: 1.669100 ms (FindLiveObjects: 0.142300 ms CreateObjectMapping: 0.058200 m
 
 ========================================================================
 Received Import Request.
+=======
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.2 MB.
+System memory in use after: 57.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1564.
+Total: 1.669100 ms (FindLiveObjects: 0.142300 ms CreateObjectMapping: 0.058200 ms MarkObjects: 1.411700 ms  DeleteObjects: 0.056000 ms)
+
+========================================================================
+Received Import Request.
+>>>>>>> parent of 3e9545a... camera rotation done
   path: Assets/Material/dirt.mat
   artifactKey: Guid(53a9e1a9646b78f4aa48d467815827c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Material/dirt.mat using Guid(53a9e1a9646b78f4aa48d467815827c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68782393a2e89fc4688943a321e7b6d') in 0.222146 seconds
   Import took 0.223861 seconds .
+<<<<<<< HEAD
+>>>>>>> parent of 3e9545a... camera rotation done
+=======
 >>>>>>> parent of 3e9545a... camera rotation done
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
