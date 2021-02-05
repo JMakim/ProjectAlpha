@@ -1,114 +1,309 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 18363.1316; Version 1909; 64bit' Language: 'en' Physical Memory: 7074 MB
+OS: 'Windows 10 Home; OS build 18363.1316; Version 1909; 64bit' Language: 'en' Physical Memory: 16242 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
+D:\Unity Editor\2020.2.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/acmoo/Desktop/ProjectAlpha-main/ProjectAlpha/TowerDefence
+D:/GitHub_Cloning/ProjectAlpha/TowerDefence
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62804
-Successfully changed project path to: C:/Users/acmoo/Desktop/ProjectAlpha-main/ProjectAlpha/TowerDefence
-C:/Users/acmoo/Desktop/ProjectAlpha-main/ProjectAlpha/TowerDefence
+57763
+Successfully changed project path to: D:/GitHub_Cloning/ProjectAlpha/TowerDefence
+D:/GitHub_Cloning/ProjectAlpha/TowerDefence
 Using Asset Import Pipeline V2.
-Unable to join player connection multicast group.
-
-Unable to join player connection alternative multicast group.
-
-Refreshing native plugins compatible for Editor in 81.87 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 130.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/acmoo/Desktop/ProjectAlpha-main/ProjectAlpha/TowerDefence/Assets
+[Subsystems] Discovering subsystems at path D:/Unity Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub_Cloning/ProjectAlpha/TowerDefence/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) R4 Graphics (ID=0x9851)
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c60)
     Vendor:   
-    VRAM:     3537 MB
-    Driver:   27.20.14501.28009
+    VRAM:     6052 MB
+    Driver:   25.21.14.1735
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Mono path[0] = 'D:/Unity Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007854 seconds.
+Register platform support module: D:/Unity Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004489 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 77.82 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 86.94 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.812 seconds
+- Completed reload, in  6.828 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002628 seconds.
+Registered in 0.002339 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.848 seconds
+- Completed reload, in  2.713 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.2 MB.
-System memory in use after: 56.2 MB.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.3 MB.
+System memory in use after: 57.4 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1523.
-Total: 6.905900 ms (FindLiveObjects: 0.969500 ms CreateObjectMapping: 0.211100 ms MarkObjects: 5.458900 ms  DeleteObjects: 0.260200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/optionsScreen.unity
-  artifactKey: Guid(f3e69209cdb64c140b97438930be10da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/optionsScreen.unity using Guid(f3e69209cdb64c140b97438930be10da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82144d2d6b40a0b507af39f127a383e3') in 0.063740 seconds
-  Import took 0.068648 seconds .
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1569.
+Total: 3.866600 ms (FindLiveObjects: 0.242500 ms CreateObjectMapping: 0.082800 ms MarkObjects: 3.389800 ms  DeleteObjects: 0.149000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 78.890326 seconds.
-  path: Assets/Scenes/mainMenu.unity
-  artifactKey: Guid(fc55e05aff552b949b16486b444924bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mainMenu.unity using Guid(fc55e05aff552b949b16486b444924bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcbb723e77fdce125dbb121ab0d226d') in 0.072148 seconds
-  Import took 0.079975 seconds .
+  path: Assets/Turrets/FattyPolyTurretFree/Meshs/MissileG_Plate00.FBX
+  artifactKey: Guid(72af3d443504a604b9f4f2cb9efd89ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Meshs/MissileG_Plate00.FBX using Guid(72af3d443504a604b9f4f2cb9efd89ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1eecaf97969f0b64cc541fdf7435cc9') in 1.518442 seconds
+  Import took 1.523662 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.980264 seconds.
-  path: Assets/Scenes/optionsScreen.unity
-  artifactKey: Guid(f3e69209cdb64c140b97438930be10da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/optionsScreen.unity using Guid(f3e69209cdb64c140b97438930be10da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070e311d1539ce6e4cf0eb562bad160a') in 0.025543 seconds
-  Import took 0.030266 seconds .
+  Time since last request: 0.000683 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Prefabs/FattyCannonG02.prefab
+  artifactKey: Guid(7191a0df8b6695d449a0f18a361bc311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Prefabs/FattyCannonG02.prefab using Guid(7191a0df8b6695d449a0f18a361bc311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90636fac1f6675af958b4d111478e2e8') in 0.098975 seconds
+  Import took 0.102935 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.036011 seconds.
-  path: Assets/Scenes/mainMenu.unity
-  artifactKey: Guid(fc55e05aff552b949b16486b444924bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mainMenu.unity using Guid(fc55e05aff552b949b16486b444924bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0c6c1b6714244be7d0f1f7e5c3cb2b') in 0.021918 seconds
-  Import took 0.026297 seconds .
+  Time since last request: 0.000471 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Meshs/MissileG_Radar00.FBX
+  artifactKey: Guid(2e8ffc8142a313848a7eae3386928a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Meshs/MissileG_Radar00.FBX using Guid(2e8ffc8142a313848a7eae3386928a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967fdf3b4b2028b17dfd9d7c082a73ad') in 0.039503 seconds
+  Import took 0.041983 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.000580 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Meshs/MissileG_Cap00.FBX
+  artifactKey: Guid(b034fedba8fdb2f45b070e2985755f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Meshs/MissileG_Cap00.FBX using Guid(b034fedba8fdb2f45b070e2985755f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5684d0155a103f5027e7c311021e8be8') in 0.016349 seconds
+  Import took 0.018717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Meshs/MortarG_Stand00.FBX
+  artifactKey: Guid(fbc9a7cd1bc0d1f47857ed598389ba8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Meshs/MortarG_Stand00.FBX using Guid(fbc9a7cd1bc0d1f47857ed598389ba8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da411d9f66bddd50e925f8424d59964') in 0.013083 seconds
+  Import took 0.015475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Prefabs/Bullet03.prefab
+  artifactKey: Guid(3e5b0980d9cc7a94bbb93263b9c6228d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Prefabs/Bullet03.prefab using Guid(3e5b0980d9cc7a94bbb93263b9c6228d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f60d067744acdf46070b6b5028cd86') in 0.173536 seconds
+  Import took 0.176470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree
+  artifactKey: Guid(842731058d3838843b7fe9c61f1587c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree using Guid(842731058d3838843b7fe9c61f1587c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74f4696346b62577c4be809a41837e0') in 0.002245 seconds
+  Import took 0.004633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Meshs/Bullet03.FBX
+  artifactKey: Guid(c0831ef85d30c5e4eaaf25a655df7e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Meshs/Bullet03.FBX using Guid(c0831ef85d30c5e4eaaf25a655df7e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c828f3a0469c0a5577cd9ee92306cbf3') in 0.041164 seconds
+  Import took 0.043827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Meshs/CatapultG_Stand00.FBX
+  artifactKey: Guid(87daa9ef6f0af16438d3ff6be75d63b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Meshs/CatapultG_Stand00.FBX using Guid(87daa9ef6f0af16438d3ff6be75d63b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a37c48d4ba3677e0ecce4f56d2df4cf') in 0.033029 seconds
+  Import took 0.037382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000665 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Prefabs/Bullet02.prefab
+  artifactKey: Guid(c13874774436a6a4c85449cab6e14fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Prefabs/Bullet02.prefab using Guid(c13874774436a6a4c85449cab6e14fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c713697c146a0fcdc7a0630bcf9a064a') in 0.027571 seconds
+  Import took 0.032286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000638 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Meshs
+  artifactKey: Guid(b76cf367518178c419a722f132745fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Meshs using Guid(b76cf367518178c419a722f132745fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2064fd06523019d42e296579c04096') in 0.003712 seconds
+  Import took 0.007575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000658 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Meshs/CatapultG_Arm02.FBX
+  artifactKey: Guid(2713c6d7c87b0294488b02dcf701157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Meshs/CatapultG_Arm02.FBX using Guid(2713c6d7c87b0294488b02dcf701157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e313f862c7a61544f1f83af7d9787a0d') in 0.034979 seconds
+  Import took 0.039404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000695 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Prefabs/Bullet00.prefab
+  artifactKey: Guid(9318a11cd670f3d4f924ff92fe7b0c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Prefabs/Bullet00.prefab using Guid(9318a11cd670f3d4f924ff92fe7b0c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c38c315953dadb00e3a61dd3243c0d') in 0.028312 seconds
+  Import took 0.033030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000652 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Prefabs/FattyMissileG02.prefab
+  artifactKey: Guid(def8b52e5e3714e43adcb23d43073949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Prefabs/FattyMissileG02.prefab using Guid(def8b52e5e3714e43adcb23d43073949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ba3ddced81b53a4da32e7be9b3a5e1') in 0.029631 seconds
+  Import took 0.034603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Meshs/CannonG_Plate00.FBX
+  artifactKey: Guid(0c79d9d4997a7ea42ac2c62162d84cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Meshs/CannonG_Plate00.FBX using Guid(0c79d9d4997a7ea42ac2c62162d84cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a6e3ea3ea9aa32d49e213b6a0fb7f3') in 0.041749 seconds
+  Import took 0.046435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000658 seconds.
+  path: Assets/Turrets
+  artifactKey: Guid(458e17920d9b994449004375dbfc4f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets using Guid(458e17920d9b994449004375dbfc4f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e07d07b298e84b17f1971d9aec082d') in 0.003668 seconds
+  Import took 0.007630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000751 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Meshs/MissileG_Stand00.FBX
+  artifactKey: Guid(b5d7e9c496fbc4348800de7310f2ef68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Meshs/MissileG_Stand00.FBX using Guid(b5d7e9c496fbc4348800de7310f2ef68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3914e23a1c1351559cba806c5cc11b4a') in 0.032788 seconds
+  Import took 0.037507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000680 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Meshs/CannonG_Barrel02.FBX
+  artifactKey: Guid(565b27b999c1f6f43aee1750c78d8150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Meshs/CannonG_Barrel02.FBX using Guid(565b27b999c1f6f43aee1750c78d8150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316a5556a169cff268d975f4d7300b3f') in 0.047926 seconds
+  Import took 0.053720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000949 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Prefabs
+  artifactKey: Guid(d6e9619bed2563c40acac148c8bb9f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Prefabs using Guid(d6e9619bed2563c40acac148c8bb9f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96eafd9cb9d7b33cfd527a3d2e014a5f') in 0.005609 seconds
+  Import took 0.010581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000922 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Meshs/CatapultG_Plate00.FBX
+  artifactKey: Guid(f58b975716656b843b8904f4ce0589df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Meshs/CatapultG_Plate00.FBX using Guid(f58b975716656b843b8904f4ce0589df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b44a97c27504e301141dc75ec6b9d17') in 0.047065 seconds
+  Import took 0.052845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000891 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Meshs/MortarG_Barrel02.FBX
+  artifactKey: Guid(297af77b153fce74da7ab46e9cc43a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Meshs/MortarG_Barrel02.FBX using Guid(297af77b153fce74da7ab46e9cc43a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4f33af40e9dc16b2bd22cd7de58682') in 0.043920 seconds
+  Import took 0.049144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000839 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Meshs/Bullet00.FBX
+  artifactKey: Guid(15a0e7a7ce870f54d97428ac5a990813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Meshs/Bullet00.FBX using Guid(15a0e7a7ce870f54d97428ac5a990813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291955233ab1922ff4cc76591e8887c7') in 0.041964 seconds
+  Import took 0.047846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000907 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Meshs/Bullet02.FBX
+  artifactKey: Guid(bc02584501fe4c546b6b0b55239d59ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Meshs/Bullet02.FBX using Guid(bc02584501fe4c546b6b0b55239d59ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96c157ce135cf7e5a210891ecdcaaa8') in 0.043793 seconds
+  Import took 0.049902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000876 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Meshs/MortarG_Plate00.FBX
+  artifactKey: Guid(8ef7db82183638f4aaf40cecc5e17364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Meshs/MortarG_Plate00.FBX using Guid(8ef7db82183638f4aaf40cecc5e17364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acebaeb201fbfc7538b35a7a2d7fcd89') in 0.042097 seconds
+  Import took 0.047389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000815 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Meshs/CannonG_Guard00.FBX
+  artifactKey: Guid(f019c9619c8574c42a0973068e562948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Meshs/CannonG_Guard00.FBX using Guid(f019c9619c8574c42a0973068e562948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf2cc1cf45cf9254bc9a735d219502f') in 0.044491 seconds
+  Import took 0.050112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000838 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Prefabs/FattyMissileG03.prefab
+  artifactKey: Guid(5abcbaa4c20adb04895a997e3d70772d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Prefabs/FattyMissileG03.prefab using Guid(5abcbaa4c20adb04895a997e3d70772d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4bb70fcc4bd67ca410ab74b4021a7f9') in 0.043663 seconds
+  Import took 0.050073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000855 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Meshs/MissileG_Barrel02.FBX
+  artifactKey: Guid(5d764ddd449a6144da08506078f9f762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Meshs/MissileG_Barrel02.FBX using Guid(5d764ddd449a6144da08506078f9f762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc405aa99ee818776373cdf7d9e00e4') in 0.040041 seconds
+  Import took 0.044771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000681 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Prefabs/FattyMortarG02.prefab
+  artifactKey: Guid(d4af3966dba2cd746ab019083640eb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Prefabs/FattyMortarG02.prefab using Guid(d4af3966dba2cd746ab019083640eb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41367f7984a212224b3ff40fad845b6') in 0.027507 seconds
+  Import took 0.032827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000721 seconds.
+  path: Assets/Turrets/FattyPolyTurretFree/Prefabs/FattyCatapultG02.prefab
+  artifactKey: Guid(16356cdf71fc4b0499d0b7fd3d6c0cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Turrets/FattyPolyTurretFree/Prefabs/FattyCatapultG02.prefab using Guid(16356cdf71fc4b0499d0b7fd3d6c0cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4176c35bd2400c9585d970d41074e71') in 0.026375 seconds
+  Import took 0.031428 seconds .
+
