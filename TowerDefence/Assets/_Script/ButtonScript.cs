@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ButtonScript : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class ButtonScript : MonoBehaviour
     {
         _optionsButton.onClick.AddListener(TaskOnClickOp); 
         _backButton.onClick.AddListener(TaskOnClickBa);
+        _startButton.onClick.AddListener(TaskOnClickSt);
         _optionsCanvas.GetComponent<Canvas>().enabled = false;
     }
 
@@ -32,5 +34,10 @@ public class ButtonScript : MonoBehaviour
         //Output this to console when Button1 or Button3 is clicked
         _startCanvas.GetComponent<Canvas>().enabled = true;
         _optionsCanvas.GetComponent<Canvas>().enabled = false;
+    } 
+    void TaskOnClickSt()
+    {
+        //Output this to console when Button1 or Button3 is clicked
+        SceneManager.LoadScene("MainGameplay");
     }
 }
