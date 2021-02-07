@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class GameManager : SingletonBase<GameManager>
 {
-    public Tower selectedTower;
+    public Turret selectedTower;
+    public List<Turret> turretsList;
     public int waveCount;
     public int resourceCount;
     public int healthCount;
@@ -21,6 +22,7 @@ public class GameManager : SingletonBase<GameManager>
 
     void Init_()
     {
+        turretsList = new List<Turret>();
         waveCount = 0;
         resourceCount = 0;
         healthCount = 100;

@@ -19,6 +19,7 @@ public class EnemySpawner : MonoBehaviour
         timer -= Time.deltaTime;
         if (timer < 0)
         {
+            GameManager.Instance.waveCount += 1;
             Instantiate(enemyPrefab, this.transform.position, Quaternion.identity, enemyCollection);
             timer = 1 / spawnRate;
         }

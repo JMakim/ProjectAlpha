@@ -108,6 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c067469129bf51d45943b10d0330a097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resourceDropPrefab: {fileID: 6065778732943651118, guid: 512047063a4aa064ba81136eede2aee7, type: 3}
   moveSpeed: 5
   isLoop: 0
   isDestroyOnArrive: 1

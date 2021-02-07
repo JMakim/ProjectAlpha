@@ -9,6 +9,7 @@ public class EnemyController : MonoBehaviour
     private Transform target;
     private int targetIndex;
 
+    public GameObject resourceDropPrefab;
     public float moveSpeed;
     public bool isLoop;
     public bool isDestroyOnArrive;
@@ -55,9 +56,9 @@ public class EnemyController : MonoBehaviour
             else if (isDestroyOnArrive&&targetIndex==wayPointsList.Count-1)
             {
                 GameManager.Instance.healthCount -= 5;
+                Instantiate(resourceDropPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
             }
         }
-
     }
 }
