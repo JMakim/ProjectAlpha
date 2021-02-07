@@ -57,10 +57,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_Script\CameraRot.cs" />
+    <Compile Include="Assets\_Script\SingletonBase.cs" />
     <Compile Include="Assets\_Script\ButtonScript.cs" />
-    <Compile Include="Assets\_Script\GameOverBS.cs" />
-    <Compile Include="Assets\_Script\UpgradeUI.cs" />
+    <Compile Include="Assets\_Script\UIManager.cs" />
+    <Compile Include="Assets\_Script\TowerPlatform.cs" />
+    <Compile Include="Assets\_Script\CameraBehavior.cs" />
+    <Compile Include="Assets\_Script\GameManager.cs" />
+    <Compile Include="Assets\_Script\EnemySpawner.cs" />
+    <Compile Include="Assets\_Script\TowerCard.cs" />
     <Compile Include="Assets\_Script\Turret.cs" />
+    <Compile Include="Assets\_Script\EnemyController.cs" />
+    <Compile Include="Assets\_Script\GameOverBS.cs" />
+    <Compile Include="Assets\_Script\Bullet.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

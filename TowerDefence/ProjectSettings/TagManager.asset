@@ -4,7 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - WayPoints
+  - ResourceDrop
+  - TowerPlatform
   - Turret
+  - Enemy
   layers:
   - Default
   - TransparentFX
