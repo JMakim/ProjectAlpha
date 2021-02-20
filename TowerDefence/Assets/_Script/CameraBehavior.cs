@@ -19,10 +19,12 @@ public class CameraBehavior : MonoBehaviour
             //Debug.Log(myTouch.position);
             if (myTouch.phase == TouchPhase.Began)//if user continues the touch
             {
+
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 RaycastHit hitInfo;
-                if (Physics.Raycast(ray, out hitInfo, 1000)) 
+                if (Physics.Raycast(ray, out hitInfo, 1000,1<<0))//only cast on default gameobjects
                 {
+                    //Debug.Log("cast on other");
                     switch (hitInfo.transform.tag)
                     {
                         case "TowerPlatform":
@@ -34,14 +36,26 @@ public class CameraBehavior : MonoBehaviour
                             break;
                         case "Turret":
                             hitInfo.transform.GetComponent<Turret>().ToggleUpgradeUI(true);
+
                             break;
                         default:
                             break;
                     }
                 }
-                else //if ray does not cast on turret, close the upgrade ui
+                else if(Physics.Raycast(ray, out hitInfo,1000,1<<LayerMask.NameToLayer("TurretUI")))
                 {
+                    //Debug.Log("cast on TurretUI");
                     foreach (Turret turret in GameManager.Instance.turretsList)
+                    {
+                        if (turret.upgradeUI.canvas.activeSelf && turret.upgradeUI.canvas != hitInfo.transform.gameObject)
+                        {
+                            turret.ToggleUpgradeUI(false);
+                        }
+                    }
+                }
+                else
+                {
+                    foreach (Turret turret in GameManager.Instance.turretsList)//if ray does not cast on turretUI, close the upgrade ui
                     {
                         if (turret.upgradeUI.canvas.activeSelf)
                         {
@@ -49,7 +63,6 @@ public class CameraBehavior : MonoBehaviour
                         }
                     }
                 }
-
             }
         }
     }
