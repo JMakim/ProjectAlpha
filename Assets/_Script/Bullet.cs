@@ -6,9 +6,11 @@ public class Bullet : MonoBehaviour
 {
     private Transform target;
 
-
+    public float damage = 50f;
     public float speed = 70f;
+    public float slowRate = 0f;
 
+    public bool isEnemyBullet;
     public void Seek(Transform _target)
     {
         target = _target;
@@ -22,7 +24,16 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        Vector3 dir = target.GetComponent<EnemyController>().transform.position - transform.position;
+        Vector3 dir = new Vector3();
+        if (isEnemyBullet)
+        {
+            dir = target.GetComponent<Turret>().transform.position - transform.position;
+        }
+        else
+        {
+            dir = target.GetComponent<EnemyController>().transform.position - transform.position;
+        }
+
         //Vector3 dir = target.position - transform.position;
         float distanceThisFrame = speed * Time.deltaTime;
 
@@ -39,6 +50,17 @@ public class Bullet : MonoBehaviour
 
     void HitTarget()
     {
-        Destroy(gameObject);
+        if (isEnemyBullet)
+        {
+            target.GetComponent<Turret>().Hit(damage);
+            Destroy(gameObject);
+        }
+        else
+        {
+            target.GetComponent<EnemyController>().slowRate += slowRate;
+            target.GetComponent<EnemyController>().Hit(damage);
+            Destroy(gameObject);
+        }
+
     }
 }
