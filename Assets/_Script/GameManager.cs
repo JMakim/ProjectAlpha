@@ -29,7 +29,7 @@ public class GameManager : SingletonBase<GameManager>
         {
             Debug.Log("GameOver!");
             //Pause Here!!!
-            //SceneManager.LoadScene(2); comment this out when gameover
+            SceneManager.LoadScene(2); 
         }
     }
 
