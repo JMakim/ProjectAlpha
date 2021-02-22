@@ -629,6 +629,7 @@ GameObject:
   - component: {fileID: 1515476202672256613}
   - component: {fileID: 7910036655516454531}
   - component: {fileID: 7760452291413112467}
+  - component: {fileID: 8457122308173471483}
   m_Layer: 0
   m_Name: Turret1
   m_TagString: Turret
@@ -734,6 +735,7 @@ MonoBehaviour:
     upgradeBtn: {fileID: 1020719557}
     sellBtn: {fileID: 1103973998}
     hpBar: {fileID: 8306353753536969272}
+  audioControl: {fileID: 0}
   enemyTag: Enemy
   range: 5
   fireRate: 1
@@ -747,6 +749,25 @@ MonoBehaviour:
   isUpgraded: 0
   bulletPrefab: {fileID: 2042422544111064064, guid: 6fab4cceed06a094abbdbaf2e82c6f06, type: 3}
   firePoint: {fileID: 1697829621935694851}
+--- !u!114 &8457122308173471483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3064244866449908307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a117ffa145c494741a7ae1552afc70c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audio: []
+  buttonClick: {fileID: 0}
+  gameOver: {fileID: 0}
+  menuScene: {fileID: 0}
+  bombTurretExplosion: {fileID: 0}
+  bombTurretFiring: {fileID: 0}
+  cannonTurret: {fileID: 4328592171402308871, guid: 351c6da25f5edc045b85ddd4ff3195d9, type: 3}
 --- !u!1 &3268453951239441977
 GameObject:
   m_ObjectHideFlags: 0

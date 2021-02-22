@@ -10,7 +10,7 @@ public class Turret : MonoBehaviour
     public TowerType type;
     public UpgradeUI upgradeUI;
 
-
+    public GameObject audioControl;
 
     private Transform target;
     public string enemyTag = "Enemy";
@@ -58,6 +58,7 @@ public class Turret : MonoBehaviour
         lr.enabled = false;
         //type = TowerType.NONE;
         //InvokeRepeating("UpdateTarget", 0f, 0.5f);
+        audioControl = GameObject.Find("AudioController");
     }
 
     // Update is called once per frame
@@ -176,6 +177,7 @@ public class Turret : MonoBehaviour
     {
         Vector3 dir = target.transform.position - transform.position;
         GameObject bulletGo = (GameObject)Instantiate(bulletPrefab, firePoint.position, Quaternion.LookRotation(dir));
+        audioControl.GetComponent<audioScript>().cannonTurret.Play();
         Bullet bullet = bulletGo.GetComponent<Bullet>();
         bullet.damage = this.bulletDmg;
         bullet.slowRate = this.slowRate;
@@ -208,6 +210,7 @@ public class Turret : MonoBehaviour
             {
                 Vector3 dir = enemy.transform.position - transform.position;
                 GameObject bulletGo = (GameObject)Instantiate(bulletPrefab, firePoint.position, Quaternion.LookRotation(dir));
+                audioControl.GetComponent<audioScript>().cannonTurret.Play();
                 Bullet bullet = bulletGo.GetComponent<Bullet>();
                 bullet.damage = this.bulletDmg;
 

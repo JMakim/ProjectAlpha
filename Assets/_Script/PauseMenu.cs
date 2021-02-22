@@ -20,10 +20,27 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        pause();
+        dpause();
     }
 
     public void pause()
+    {
+        if (!isPaused)
+        {
+            isPaused = true;
+            pauseMenuObj.gameObject.SetActive(true);
+            Time.timeScale = 0;
+        }
+        else if (isPaused)
+        {
+            isPaused = false;
+            pauseMenuObj.gameObject.SetActive(false);
+            Time.timeScale = 1;
+        }
+    }
+
+    // keyboard debug
+    public void dpause()
     {
         if(Input.GetKeyUp(KeyCode.P) && !isPaused)
         {
