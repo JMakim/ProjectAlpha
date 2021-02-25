@@ -13,11 +13,11 @@ public class CameraBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.touchCount > 0)
+        if (Input.touchCount > 0 || Input.GetMouseButtonDown(0))
         {
-            Touch myTouch = Input.GetTouch(Input.touchCount - 1);//save last touch infomation
+            //Touch myTouch = Input.GetTouch(Input.touchCount - 1);//save last touch infomation      //<------ changed this for mouse
             //Debug.Log(myTouch.position);
-            if (myTouch.phase == TouchPhase.Began)//if user continues the touch
+            //if (myTouch.phase == TouchPhase.Began)//if user continues the touch                    //<------ changed this for mouse
             {
 
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
