@@ -3,18 +3,24 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ResourceDrop
+  - TowerPlatform
+  - Turret
+  - Enemy
+  - WayPoints
+  - Base
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - LaserBeam
   - Water
   - UI
+  - TurretUI
   - 
   - 
   - 
-  - miniMap
   - 
   - 
   - 
