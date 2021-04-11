@@ -27,6 +27,6 @@ public class UIManager : SingletonBase<UIManager>
         u_waveText.text = "Wave: "+GameManager.Instance.waveCount.ToString();
         u_resourceText.text = "Resource: " + GameManager.Instance.resourceCount.ToString();
         u_healthText.text = "Health: " + GameManager.Instance.healthCount.ToString();
-        baseHpBar.value = GameManager.Instance.healthCount / 1000;
+       // baseHpBar.value = GameManager.Instance.healthCount / 1000;
     }
 }
