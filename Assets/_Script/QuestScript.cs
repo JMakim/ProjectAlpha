@@ -23,6 +23,7 @@ public class QuestScript : MonoBehaviour
         if(PlayerPrefs.GetInt("FirstTower") == 1)
         {
             Quest1.text = "Place a Tower (1/1) - Complete";
+            //give t he playerr a reward
         }
     }
 
