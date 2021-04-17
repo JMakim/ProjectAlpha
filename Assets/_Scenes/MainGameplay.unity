@@ -703,6 +703,7 @@ MonoBehaviour:
   spawnRate: 0.2
   enemyPrefab1: {fileID: 3616981627111284944, guid: 6b1528a78d1bb6840b03388acd7e9844, type: 3}
   enemyPrefab2: {fileID: 4330377240264342187, guid: caad4f51ef5b439418cabd5625221843, type: 3}
+  enemyPrefab3: {fileID: 1149162637175167294, guid: 46365abb300053e4c84903def1401273, type: 3}
   enemyCollection: {fileID: 1092185980}
 --- !u!4 &41747037
 Transform:

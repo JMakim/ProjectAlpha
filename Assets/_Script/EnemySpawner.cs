@@ -7,6 +7,7 @@ public class EnemySpawner : MonoBehaviour
     public float spawnRate=3;
     public GameObject enemyPrefab1;
     public GameObject enemyPrefab2;
+    public GameObject enemyPrefab3;
     public Transform enemyCollection;
     float timer;
     void Start()
@@ -20,7 +21,7 @@ public class EnemySpawner : MonoBehaviour
         timer -= Time.deltaTime;
         if (timer < 0)
         {
-            int temp = Random.Range(1, 3);//1-2
+            int temp = Random.Range(1, 4);//1-2
             switch (temp)
             {
                 case 1:
@@ -30,6 +31,7 @@ public class EnemySpawner : MonoBehaviour
                     Instantiate(enemyPrefab2, this.transform.position, Quaternion.identity, enemyCollection);
                     break;
                 case 3:
+                    Instantiate(enemyPrefab3, this.transform.position, Quaternion.identity, enemyCollection);
                     break;
                 default:
                     break;
