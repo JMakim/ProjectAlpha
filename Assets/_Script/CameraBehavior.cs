@@ -4,24 +4,20 @@ using UnityEngine;
 
 public class CameraBehavior : MonoBehaviour
 {
-    public bool isZoomed = false;
-    public Camera[] cameraList;
-
-    private Vector3 zoomSpeed;
-    private Vector3 camOriginPos;
-    private Quaternion camOriginRot;
-    private Vector3 culculatedPos;
+    // Start is called before the first frame update
     void Start()
     {
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.touchCount > 0 /*|| Input.GetMouseButtonDown(0)*/)
+        if (Input.touchCount > 0 || Input.GetMouseButtonDown(0))
         {
-            Touch myTouch = Input.GetTouch(Input.touchCount - 1);//save last touch infomation      //<------ changed this for mouse
-            if (myTouch.phase == TouchPhase.Began)//if user continues the touch                    //<------ changed this for mouse
+            //Touch myTouch = Input.GetTouch(Input.touchCount - 1);//save last touch infomation      //<------ changed this for mouse
+            //Debug.Log(myTouch.position);
+            //if (myTouch.phase == TouchPhase.Began)//if user continues the touch                    //<------ changed this for mouse
             {
 
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -39,19 +35,8 @@ public class CameraBehavior : MonoBehaviour
                             Destroy(hitInfo.transform.gameObject);
                             break;
                         case "Turret":
-                            if (!isZoomed)
-                            {
-                                hitInfo.transform.GetComponent<Turret>().ToggleUpgradeUI(true);
-                                camOriginPos = Camera.main.transform.position;
-                                camOriginRot = Camera.main.transform.rotation;
-                                Vector3 dir = hitInfo.transform.position - Camera.main.transform.position;
-                                culculatedPos = hitInfo.transform.position - dir.normalized * 10;
-                                foreach (Camera cam in cameraList)
-                                {
-                                    cam.transform.LookAt(culculatedPos);
-                                }
-                                isZoomed = true;
-                            }
+                            hitInfo.transform.GetComponent<Turret>().ToggleUpgradeUI(true);
+
                             break;
                         default:
                             break;
@@ -75,28 +60,10 @@ public class CameraBehavior : MonoBehaviour
                         if (turret.upgradeUI.canvas.activeSelf)
                         {
                             turret.ToggleUpgradeUI(false);
-                            if (isZoomed)
-                            {
-                                foreach (Camera cam in cameraList)
-                                {
-                                    cam.transform.position = camOriginPos;
-                                    cam.transform.rotation = camOriginRot;
-                                }
-                                isZoomed = false;
-                            }
                         }
                     }
                 }
             }
         }
-        if (isZoomed)
-        {
-            foreach (Camera cam in cameraList)
-            {
-                cam.transform.position = Vector3.SmoothDamp(cam.transform.position, culculatedPos, ref zoomSpeed, 0.2f);
-            }
-        }
     }
-
-
 }

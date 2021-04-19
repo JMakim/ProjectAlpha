@@ -61,6 +61,7 @@ public class Turret : MonoBehaviour
         //type = TowerType.NONE;
         //InvokeRepeating("UpdateTarget", 0f, 0.5f);
         audioControl = GameObject.Find("AudioController");
+        PlayerPrefs.SetInt("FirstTower", 1);
     }
 
     // Update is called once per frame
